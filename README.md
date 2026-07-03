@@ -1,16 +1,157 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built using **React**, **Vite**, and **Tailwind CSS** to showcase my skills, projects, education, and resume.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://swapnikaportfolio.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👩‍💻 About Me
 
-## Expanding the ESLint configuration
+Hi, I'm **Swapnika Satti**, a B.Tech student specializing in **Artificial Intelligence & Machine Learning** with a strong interest in:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Full Stack Development
+- Software Engineering
+- Machine Learning
+- Data Analytics
+
+I enjoy building intelligent applications and modern web experiences while continuously improving my problem-solving and development skills.
+
+---
+
+## ✨ Features
+
+- Responsive Design
+- Modern UI/UX
+- Smooth Navigation
+- Animated Sections
+- Downloadable Resume
+- Project Showcase
+- Skills Section
+- Education Timeline
+- Contact Information
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+### Icons
+
+- React Icons
+
+### Deployment
+
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+portfolio/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 📌 Featured Projects
+
+### 🚲 Bike Sharing Demand Prediction
+
+- Machine Learning-based demand prediction
+- Data preprocessing & feature engineering
+- Streamlit deployment
+
+**Live Demo**
+
+https://bike-sharing-demand.streamlit.app/
+
+---
+
+### 🎁 AI Gift Suggestor
+
+- AI-powered personalized gift recommendation system
+- Machine Learning model integration
+- User-friendly interface
+
+---
+
+## 📥 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/swapnika9494/portfolio.git
+```
+
+Navigate to the project
+
+```bash
+cd portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📄 Resume
+
+Resume is available directly from the portfolio website.
+
+---
+
+## 📬 Contact
+
+**Swapnika Satti**
+
+📧 Email: swapnireddy9494@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/swapnika-satti-1690a2319/
+
+💻 GitHub: https://github.com/swapnika9494
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+---
+
+Made with ❤️ by **Swapnika Satti**
