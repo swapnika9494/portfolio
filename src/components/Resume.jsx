@@ -57,7 +57,7 @@ const Resume = () => {
           </div>
 
           <a
-            href="/SwapnikaSattiResume_b2"
+            href="/SwapnikaSattiResume_b2.pdf"
             download
             className="inline-flex items-center gap-3 mt-10 bg-purple-600 hover:bg-purple-700 px-8 py-4 rounded-xl font-medium transition"
           >
