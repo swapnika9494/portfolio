@@ -5,6 +5,7 @@ import star_icon from "./star_icon.png";
 import map_icon from "./map_icon.png";
 import smartInvigilation from "./SmartInvigilation.png";
 export const assets = {
+  avatar,
   bikeSharing,
   smartInvigilation,
   aiGift,
