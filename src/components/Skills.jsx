@@ -19,7 +19,6 @@ import {
   SiScikitlearn,
   SiPandas,
   SiRedux,
-  SiNumpy,
   SiStreamlit,
 } from "react-icons/si";
 
