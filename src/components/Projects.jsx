@@ -107,6 +107,96 @@ const Projects = () => {
             </div>
           </div>
         </motion.div>
+        {/* Smart Invigilation Management System */}
+<motion.div
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  className="bg-white/5 border border-white/10 rounded-3xl overflow-hidden mb-10 hover:border-purple-500/50 hover:-translate-y-1 transition-all duration-300"
+  >
+  <div className="grid grid-cols-1 lg:grid-cols-2">
+    <div className="p-4 md:p-6 flex items-center">
+      <img
+        src={assets.smartInvigilation}
+        alt="Smart Invigilation Management System"
+        className="rounded-2xl w-full h-52 sm:h-64 md:h-80 lg:h-96 object-cover"
+      />
+    </div>
+
+    <div className="p-6 md:p-8 flex flex-col justify-center">
+      <h3 className="text-2xl md:text-3xl font-bold mb-4">
+        Smart Invigilation Management System
+        <span className="text-purple-500 font-medium mb-3 flex gap-2">
+        <img src={assets.star_icon} alt="" />
+        <span>Featured Project</span>
+      </span>
+      </h3>
+
+      <p className="text-zinc-400 leading-7 text-sm md:text-base">
+        Developed a full-stack web application to automate examination
+        invigilation scheduling with secure role-based authentication,
+        conflict-free faculty allocation, leave management, and balanced
+        workload distribution. Built responsive dashboards for Admin, HOD,
+        and Teachers with real-time exam and duty management.
+      </p>
+
+      <div className="flex flex-wrap gap-3 mt-6">
+        {[
+          "React.js",
+          "Tailwind CSS",
+          "Redux Toolkit",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "JWT",
+        ].map((tech) => (
+          <span
+            key={tech}
+            className="px-4 py-2 rounded-full bg-black border border-white/10 text-sm"
+          >
+            {tech}
+          </span>
+        ))}
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-8">
+        <div className="bg-black/40 rounded-xl p-3 text-sm text-center">
+          Role-Based Access
+        </div>
+
+        <div className="bg-black/40 rounded-xl p-3 text-sm text-center">
+          Conflict-Free Scheduling
+        </div>
+
+        <div className="bg-black/40 rounded-xl p-3 text-sm text-center">
+          Faculty Workload Management
+        </div>
+      </div>
+
+      <div className="flex flex-col sm:flex-row gap-4 mt-8">
+        <a
+          href="https://smart-invigilation-management-syste.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 bg-purple-600 hover:bg-purple-700 px-5 py-3 rounded-xl transition"
+        >
+          <FiExternalLink />
+          Live Demo
+        </a>
+
+        <a
+          href="https://github.com/swapnika9494/smart-invigilation-management-system"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 border border-white/10 hover:border-purple-500 px-5 py-3 rounded-xl transition"
+        >
+          <FaGithub />
+          GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</motion.div>
 
         {/* AI Gift Suggestor */}
         <motion.div
@@ -181,5 +271,4 @@ const Projects = () => {
     </section>
   );
 };
-
 export default Projects;
